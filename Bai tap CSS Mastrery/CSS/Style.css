@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    text-decoration: none;
+    list-style: none;
+    /* margin: auto; */
+}
+.logo i{
+    background-color: rgb(6, 2, 118);
+    color: rgb(251, 197, 0);
+    border-radius: 70px;
+    padding: 14px 14px;
+    margin: 10px 10px;
+    
+}
+.logo span b{
+    color: black ;
+    font-size:2rem ;
+   padding-top: 20px;
+}
+.menu{
+    list-style: none;
+    padding-left: 8px;
+}
+.menu li{
+    display: inline;
+    padding: 1rem;
+}
+.menu li a{
+    color: black;
+    font-size: 1rem;
+    text-decoration: none;
+    
+    transition: all 0.5s;
+   
+}
+.menu li a.active{
+    color: #e62b4a;
+}
+.menu li a:hover{
+    color: #e62b4a;
+
+}
+.Banner{
+    background-image: url("./../hình/images/2.jpg");
+    /* background-size: cover; */
+    /* background-position: center; */
+    width: 100%;
+    height: 30rem;
+    padding-top: 10rem;
+}
+.content {
+    display: inline-block;
+    width: 45%;
+    height: 100%;
+}
+
+.title h1 b{
+font-size: 2rem;
+}
+.title p {
+    line-height: 1.5rem;
+    padding: 2rem 0 0 0;
+    color: gray;
+    display: inline-block;
+}
+.title div p{
+    padding: 1rem;
+    
+}
+.title button{
+    font-weight: bold;
+    color: rgb(2, 7, 104);
+    background-color: rgb(214, 191, 14);
+    border-color: rgb(214, 191, 14);
+    border-radius: 7px;
+    padding: 15px 30px ;
+    
+}
+.image{
+    display: inline-block;
+    width: 45%;
+    padding-top: 1rem;
+    margin-left:  4rem;
+}
+.image img{
+
+width: 100%;
+height: 350px;
+
+
+}
+.sub_container{
+    padding: 4rem 0;
+}
+
+.intro{
+   
+    background-color: rgb(232, 230, 230);
+    width: 100%;
+}
+.intro_item{
+    width: 20%;
+    display: inline-block;
+    padding: 15px 20px;
+}
+.intro_item_content{
+    
+    display: inline-block;
+    
+}
+.intro_item h1{
+    display: inline-block;
+    font-size: 3rem;
+    margin-right: 5px;
+}
+.intro_item span p{
+    display: inline-block;
+    font-size: larger;
+    margin: 10px 5px;
+}
+.container {
+    padding: 0rem 7rem;
+}
+
+.item{
+    text-align: center;
+    color: white;
+    padding: 2rem 0rem;
+    background-color: rgb(15, 55, 115);
+    margin: 1rem;
+    width: 20%;
+    height: 100px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.item i{
+    font-size: 2rem;
+    margin: 5px 10px;
+}
+.item p{
+    font-size: 1.2rem;
+}
+.item #head1{
+    padding-right: 5rem;
+}
+.clear-both{
+    clear:both;
+}
+.post__event{
+    background-color: rgb(215, 214, 212);
+}
+.post{
+    display: inline-block;
+    width: 35%;
+}
+.post_item{
+    margin: 10px;
+    padding: 10px;
+    
+}
+.post_item_content {
+    border-bottom: 0.2px gray solid;
+}
+.post__content{
+   
+    display: inline-block;
+    background-color: white;
+    width: 100%;
+    
+    margin: 2rem 0rem 2rem 8rem;
+}
+.post .title h1{
+    background-color:rgb(215, 214, 212);
+    margin: 8rem 0 0rem 8rem;
+    font-size: 2.5rem;
+
+}
+.post_item_img img{
+    
+    width: 8rem;
+    height: 7rem;
+    margin-right: 20px;
+    float: left;
+    border-radius: 10px;
+}
+.post_item_content b,p,h4{
+    padding: 0.7rem 0 ;
+    font-size: 1rem;
+}
+.post_item_content h4{
+    color: rgb(218, 210, 210);
+    font-weight: 500;
+}
+.post_item_content p{
+    color: grey;
+    font-size: 1rem;
+}
+.events{
+    width: 46%;
+    display: inline-block;
+    margin-left: 10rem;
+}
+.event_item_time {
+    width: 54%;
+    display: inline-block;
+    border-right: 1px grey solid;
+    
+    
+}
+.event__title h1{
+    background-color:rgb(215, 214, 212);
+    margin: 10rem 0 2rem 0rem;
+    font-size: 2.5rem;
+padding: 6rem 5rem 1rem 1rem;
+}
+.event_item{
+    margin: 20px 100px 0px 20px;
+    padding: 15px 20px 0px 30px;
+    background-color: white;
+    
+}
+.event_item_cal{
+    text-align: center;
+    display: inline;
+    float: left;
+    /* padding: 10px 10px; */
+    background-color: rgb(230, 193, 13);
+    border-radius: 10px;
+    margin-right: 1.5rem;
+}
+.event_item_cal h2{
+    font-size: 2.5rem;
+    margin-top: 10px;
+    color: rgb(16, 16, 97);
+}
+.event_item_cal p{
+    color: rgb(16, 16, 97);
+}
+.event_item_cal h3{
+    background-color: rgb(16, 16, 97);
+    color: white;
+    padding: 10px 40px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.event_item_content h1{
+    font-size: 1.5rem;
+}
+.event_item_content p{
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+    color: gray;
+}
+.event_item_time p{
+    padding-left: 9rem;
+    margin-right: 2rem;
+    color: rgb(55, 55, 212);
+    display: inline-block;
+    font-size: 20px;
+}
+.event_item_address {
+    width: 44%;
+    display: inline-block;
+}
+.event_item_address p{
+        margin-left: 2rem;
+    color: rgb(55, 55, 212);
+    font-size: 20px;
+}
+.post__event button{
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    background-color: rgb(230, 193, 13);
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(16, 16, 97);
+}
+
+.post button{
+    margin: 0px -9rem 8px 32rem;
+    border-color: rgb(230, 193, 13);
+}
+.events button{
+    margin: 1rem -1rem 1rem 28rem;
+    border-color: rgb(230, 193, 13);
+}
+
+.clear-both{
+    clear:both;
+}
+.cont_us p{
+display: inline-block;
+}
+.cont_us i{
+    color: rgb(230, 193, 13);
+    display: inline-block;
+}
+.cont_us{
+display: inline-block;
+width: 30%;
+
+}
+.fe_link{
+    display: inline-block;
+    width: 35%;
+}
+.quick_link{
+    display: inline-block;
+    width: 30%;
+}
+.contact h1{
+    padding-bottom: 10px;
+}
+.contact{
+    padding: 50px 0;
+    background-color: rgb(6, 6, 62);
+    color: white;
+}
